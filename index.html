@@ -1,0 +1,92 @@
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">    <!-- Tähestik, mida kasutame  -->
+    <link rel="stylesheet" type="text/css" href="style.css"/> <!-- Ühendus CSS-i ja meie lehe vahel -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <title>Minu veebileht</title> <!-- Veebilehe pealkiri, mida näidatakse brauseri tab-is -->
+    <style>
+        .gradient-background {
+            background: linear-gradient(to bottom right, #04082E, #6DQEE8, #FF00FF, #00FF00);
+        }
+    </style>
+</head>
+<body class="gradient-background">
+
+<!-- Pealkiri, pilt ja väike kirjeldus -->
+
+<div class="container" style="padding: 1em">
+    <div id="textBox">
+        <h1>Tamm Tamm Tamm Tamm</h1>
+        <p>Kristel Tamm on Gustav Adolfi Gümnaasiumi matemaatikaõpetaja ja reaalõppetooli juhataja.</p>
+    </div>
+    <img id="photo" src="https://gag.ee/wp-content/uploads/2021/10/Kristel-Tamm-reaalaainete-oppetool-matemaatika.jpg">
+</div>
+
+<!-- Lõbusad faktid -->
+
+<div class="container">
+    <div class="card" id="kolm">
+
+        <!-- Tee see osa ise! -->
+        <img class="icon" src="images/question.png"/>
+        <h1 class="neli">Kas teadsid, et </h1>
+        <p class="viis">
+            Ta on pälvinud matemaatiku Gerhard Rägo nimelise medali 2020. aasta saavutuste eest matemaatikaõpetuse valdkonnas. See autasu antakse inimestele ja kollektiividele, kes on oluliselt kaasa aidanud matemaatikaõpetuse arengule
+        </p>
+    </div>
+    <div class="card" id="üks">
+        <!-- Tee see osa ise! -->
+        <img class="icon" src="images/question.png"/>
+        <h1 class="neli">Kas teadsid, et </h1>
+        <p class="viis">
+            Isaks oma matemaatikaõpetaja rollile on Kristel Tamm ka kuu klassijuhataja Gustav Adolfi Gümnaasiumis. Tema pühendumus ja panus kooli igapäevaelus on märkimisväärne ning ta on tõeline visiitkaart meie koolile
+        </p>
+    </div>
+    <div class="card" id="kaks">
+        <!-- Tee see osa ise! -->
+        <img class="icon" src="images/question.png"/>
+        <h1 class="neli">DiD yOu KnOW tHAt </h1>
+        <p class="viis">
+            Tamm<s>el</s> on nii vana, et ta kasutas koolis perfokaarte.
+        </p>
+    </div>
+</div>
+
+<!-- Video -->
+
+<div class="container" id="vid" style="flex-flow: column">
+    <iframe id="video" src="https://www.youtube.com/embed/wQ1UBfYxqfo?si=XUrCcimv9TkpEk96&autoplay=1&mute=1" title="YouTube video player"
+            allow="autoplay"></iframe>
+</div>
+    <!-- max-width paneb ette piiri, et kui pikk võib tekst olla -->
+    <p style="max-width: 55em">
+        Tamme eelmise klassi õppevideo.
+    </p>
+</div>
+
+<!-- Lisainfo -->
+
+<div>
+    <h1>Lisainfo</h1>
+    <div class="container">
+    </div>
+</div>
+<div>
+    <p>
+        Le Tamm better not read this.
+    </p>
+</div>
+
+</body>
+
+<script>
+    const videoDiv = document.getElementById("vid");
+
+    videoDiv.addEventListener("click", function() {
+        // Your custom logic here
+        console.log("Video div was clicked!");
+    });
+</script>
+
+</html>

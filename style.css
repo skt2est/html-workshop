@@ -1,0 +1,86 @@
+/* viide elemendile st muudame kõiki selliseid elemente */
+body {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    gap: 3em; /* vahe elementide vahel */
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+/* #-ga viitame elemendile, millel on selline id */
+#photo {
+    max-width: 25em;
+    max-height: 30em;
+}
+/* .-ga viitame elemenditele, millel on selline class */
+.container {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    gap: 3em;
+    justify-content: center;
+}
+
+#textBox {
+    max-height: 25em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.card {
+    width: 20em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 1.5em 1.5em;
+}
+
+#üks {
+    background-image: url("https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/415477991_3673436022912740_6963292483344044424_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Bz_sbs8MHPcAX8YIUz2&_nc_ht=scontent-arn2-1.xx&oh=00_AfC3c5bZ0tNbh2LB_CMxek7LOkfs2olHMVIFa1ZflP3mpw&oe=65FB649C");
+    background-size: cover;
+}
+
+#kaks {
+    background-image: url("https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-1/369359808_3591502587772751_123650846121069614_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uqf_wtdtGBoAX8T2vqY&_nc_ht=scontent-arn2-1.xx&oh=00_AfDzL8UDpmKjJdlMxDpgGtyEfjRbm5HQqEGZFtxvMO485g&oe=65FAAF51");
+    background-size: cover;
+}
+
+#kolm {
+    background-image: url("https://scontent-arn2-1.xx.fbcdn.net/v/t31.18172-8/1495143_1379439605645738_1366573394_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rEnqso5QuSAAX9G9y9l&_nc_ht=scontent-arn2-1.xx&oh=00_AfBCRgZclYvEWCceHRCE-Y-FooYBReArWTPrDCtUBQ6pbw&oe=661D0FFA");
+    background-size: cover;
+}
+
+.neli {
+    background-color: rgba(173, 162, 162, 0.45);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.viis {
+    background-color: rgba(232, 216, 216, 0.75);
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+}
+
+.icon {
+    max-width: 10em;
+}
+iframe {
+    width: 50em;
+    height: 28em;
+}
+
+button {
+    width: 20em;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 2em;
+}
+
+button:hover {
+    background-color: #C8C6C6;
+    cursor: pointer;
+}
